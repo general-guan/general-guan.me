@@ -88,7 +88,7 @@ export default function Home() {
     {
       label: "Simple Icons",
       href: "https://simpleicons.org/",
-      logo: "",
+      logo: "simpleicons",
     },
   ]
 
@@ -173,21 +173,21 @@ export default function Home() {
     {
       label: "SnipPaste",
       href: "https://www.snipaste.com/",
-      logo: "",
+      logo: "snipaste",
     },
   ]
   return (
     <>
-      <SiteMap title="搜索引擎" siteList={list2} />
-      <SiteMap title="技术社区" siteList={list3} />
-      <SiteMap title="JS框架" siteList={list5} />
-      <SiteMap title="UI框架" siteList={list1} />
-      <SiteMap title="开发工具" siteList={list6} />
-      <SiteMap title="在线学习" siteList={list9} />
-      <SiteMap title="面试刷题" siteList={list7} />
-      <SiteMap title="设计" siteList={list4} />
-      <SiteMap title="协同工作" siteList={list8} />
-      <SiteMap title="工具" siteList={list10} />
+      <SiteMap title='搜索引擎' siteList={list2} />
+      <SiteMap title='技术社区' siteList={list3} />
+      <SiteMap title='JS框架' siteList={list5} />
+      <SiteMap title='UI框架' siteList={list1} />
+      <SiteMap title='开发工具' siteList={list6} />
+      <SiteMap title='在线学习' siteList={list9} />
+      <SiteMap title='面试刷题' siteList={list7} />
+      <SiteMap title='设计' siteList={list4} />
+      <SiteMap title='协同工作' siteList={list8} />
+      <SiteMap title='工具' siteList={list10} />
     </>
   )
 }

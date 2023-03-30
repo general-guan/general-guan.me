@@ -7,18 +7,24 @@ export default function SiteMap({
   siteList: Array<{ label: string; href: string; logo: string }>
 }) {
   return (
-    <>
+    <div>
       <h4>{title}</h4>
-      {siteList.map((m, i) => (
-        <div key={i} className="flex items-center">
-          <div className="relative" style={{ height: 30, width: 30 }}>
-            <Image src={`./svg/logo/${m.logo}.svg`} alt="" fill />
+      <div className='flex flex-wrap text-gray-600'>
+        {siteList.map((m, i) => (
+          <div key={i} className='flex items-center flex-shrink-0'>
+            <div className='relative' style={{ height: 30, width: 30 }}>
+              <Image
+                src={`./svg/logo/${m.logo ? m.logo : "noimg"}.svg`}
+                alt=''
+                fill
+              />
+            </div>
+            <a href={m.href} target='_blank'>
+              {m.label}
+            </a>
           </div>
-          <a href={m.href} target="_blank">
-            {m.label}
-          </a>
-        </div>
-      ))}
-    </>
+        ))}
+      </div>
+    </div>
   )
 }
