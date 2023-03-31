@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from 'next/image'
 export default function SiteMap({
   title,
   siteList,
@@ -13,11 +13,7 @@ export default function SiteMap({
         {siteList.map((m, i) => (
           <div key={i} className='flex items-center flex-shrink-0'>
             <div className='relative' style={{ height: 30, width: 30 }}>
-              <Image
-                src={`./svg/logo/${m.logo ? m.logo : "noimg"}.svg`}
-                alt=''
-                fill
-              />
+              <Image src={`./svg/logo/${m.logo ? m.logo : 'noimg'}.svg`} alt='' fill />
             </div>
             <a href={m.href} target='_blank'>
               {m.label}

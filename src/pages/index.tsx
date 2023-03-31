@@ -1,179 +1,179 @@
-import SiteMap from "@/components/SiteMap"
+import SiteMap from '@/components/SiteMap'
 export default function Home() {
   const list1 = [
     {
-      label: "Tailwind CSS",
-      href: "https://tailwindcss.com/",
-      logo: "tailwindcss",
+      label: 'Tailwind CSS',
+      href: 'https://tailwindcss.com/',
+      logo: 'tailwindcss',
     },
     {
-      label: "Naive UI",
-      href: "https://www.naiveui.com/zh-CN/os-theme",
-      logo: "naiveui",
+      label: 'Naive UI',
+      href: 'https://www.naiveui.com/zh-CN/os-theme',
+      logo: 'naiveui',
     },
     {
-      label: "Element UI",
-      href: "https://element.eleme.cn/#/zh-CN",
-      logo: "element",
+      label: 'Element UI',
+      href: 'https://element.eleme.cn/#/zh-CN',
+      logo: 'element',
     },
   ]
 
   const list2 = [
     {
-      label: "Google",
-      href: "https://www.google.com/",
-      logo: "google",
+      label: 'Google',
+      href: 'https://www.google.com/',
+      logo: 'google',
     },
     {
-      label: "百度",
-      href: "https://www.baidu.com/",
-      logo: "baidu",
+      label: '百度',
+      href: 'https://www.baidu.com/',
+      logo: 'baidu',
     },
   ]
 
   const list3 = [
     {
-      label: "Github",
-      href: "https://github.com/",
-      logo: "github",
+      label: 'Github',
+      href: 'https://github.com/',
+      logo: 'github',
     },
     {
-      label: "Gitee",
-      href: "https://gitee.com/",
-      logo: "gitee",
+      label: 'Gitee',
+      href: 'https://gitee.com/',
+      logo: 'gitee',
     },
     {
-      label: "掘金",
-      href: "https://juejin.cn/",
-      logo: "juejin",
+      label: '掘金',
+      href: 'https://juejin.cn/',
+      logo: 'juejin',
     },
     {
-      label: "博客园",
-      href: "https://www.cnblogs.com/",
-      logo: "bokeyuan",
+      label: '博客园',
+      href: 'https://www.cnblogs.com/',
+      logo: 'bokeyuan',
     },
     {
-      label: "CSDN",
-      href: "https://www.csdn.net/",
-      logo: "csdn",
+      label: 'CSDN',
+      href: 'https://www.csdn.net/',
+      logo: 'csdn',
     },
     {
-      label: "StackOverflow",
-      href: "https://stackoverflow.com/",
-      logo: "stackoverflow",
+      label: 'StackOverflow',
+      href: 'https://stackoverflow.com/',
+      logo: 'stackoverflow',
     },
   ]
 
   const list4 = [
     {
-      label: "ColorSpace",
-      href: "https://mycolor.space/",
-      logo: "",
+      label: 'ColorSpace',
+      href: 'https://mycolor.space/',
+      logo: '',
     },
     {
-      label: "Comic Mono Font",
-      href: "https://dtinth.github.io/comic-mono-font/",
-      logo: "",
+      label: 'Comic Mono Font',
+      href: 'https://dtinth.github.io/comic-mono-font/',
+      logo: '',
     },
     {
-      label: "Wallpaper Abyss",
-      href: "https://wall.alphacoders.com/",
-      logo: "",
+      label: 'Wallpaper Abyss',
+      href: 'https://wall.alphacoders.com/',
+      logo: '',
     },
     {
-      label: "Icônes",
-      href: "https://icones.js.org/",
-      logo: "",
+      label: 'Icônes',
+      href: 'https://icones.js.org/',
+      logo: '',
     },
     {
-      label: "Simple Icons",
-      href: "https://simpleicons.org/",
-      logo: "simpleicons",
+      label: 'Simple Icons',
+      href: 'https://simpleicons.org/',
+      logo: 'simpleicons',
     },
   ]
 
   const list5 = [
     {
-      label: "React",
-      href: "https://react.dev/",
-      logo: "react",
+      label: 'React',
+      href: 'https://react.dev/',
+      logo: 'react',
     },
     {
-      label: "Next",
-      href: "https://nextjs.org/",
-      logo: "nextjs",
+      label: 'Next',
+      href: 'https://nextjs.org/',
+      logo: 'nextjs',
     },
     {
-      label: "Vue3",
-      href: "https://cn.vuejs.org/",
-      logo: "vue",
+      label: 'Vue3',
+      href: 'https://cn.vuejs.org/',
+      logo: 'vue',
     },
     {
-      label: "Vue2",
-      href: "https://v2.cn.vuejs.org/",
-      logo: "vue",
+      label: 'Vue2',
+      href: 'https://v2.cn.vuejs.org/',
+      logo: 'vue',
     },
     {
-      label: "Express",
-      href: "https://www.expressjs.com.cn/",
-      logo: "express",
+      label: 'Express',
+      href: 'https://www.expressjs.com.cn/',
+      logo: 'express',
     },
   ]
 
   const list6 = [
     {
-      label: "VS Code",
-      href: "https://code.visualstudio.com/",
-      logo: "vscode",
+      label: 'VS Code',
+      href: 'https://code.visualstudio.com/',
+      logo: 'vscode',
     },
     {
-      label: "WebStorm",
-      href: "https://www.jetbrains.com/webstorm/",
-      logo: "webstorm",
+      label: 'WebStorm',
+      href: 'https://www.jetbrains.com/webstorm/',
+      logo: 'webstorm',
     },
     {
-      label: "Snippet Generator",
-      href: "https://snippet-generator.app/",
-      logo: "",
+      label: 'Snippet Generator',
+      href: 'https://snippet-generator.app/',
+      logo: '',
     },
   ]
 
   const list7 = [
     {
-      label: "LeetCode",
-      href: "https://leetcode.cn/",
-      logo: "leetcode",
+      label: 'LeetCode',
+      href: 'https://leetcode.cn/',
+      logo: 'leetcode',
     },
   ]
   const list8 = [
     {
-      label: "语雀",
-      href: "https://www.yuque.com/",
-      logo: "yuque",
+      label: '语雀',
+      href: 'https://www.yuque.com/',
+      logo: 'yuque',
     },
   ]
   const list9 = [
     {
-      label: "菜鸟教程",
-      href: "https://www.runoob.com/",
-      logo: "runoob",
+      label: '菜鸟教程',
+      href: 'https://www.runoob.com/',
+      logo: 'runoob',
     },
     {
-      label: "ES6",
-      href: "https://es6.ruanyifeng.com/",
-      logo: "es6",
+      label: 'ES6',
+      href: 'https://es6.ruanyifeng.com/',
+      logo: 'es6',
     },
     {
-      label: "书栈网",
-      href: "https://www.bookstack.cn/",
-      logo: "",
+      label: '书栈网',
+      href: 'https://www.bookstack.cn/',
+      logo: '',
     },
   ]
   const list10 = [
     {
-      label: "SnipPaste",
-      href: "https://www.snipaste.com/",
-      logo: "snipaste",
+      label: 'SnipPaste',
+      href: 'https://www.snipaste.com/',
+      logo: 'snipaste',
     },
   ]
   return (
