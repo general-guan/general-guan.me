@@ -1,5 +1,5 @@
-import Search from './Search'
-import SiteGroup from './SiteGroup'
+import Search from '@/pages-components/site-navigation/Search'
+import SiteGroup from '@/pages-components/site-navigation/SiteGroup'
 import { list1, list2, list3, list4, list5, list6, list7, list8, list9, list10 } from '@/models'
 
 const SiteNavigation = () => {
