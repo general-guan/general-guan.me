@@ -16,7 +16,7 @@ const Input = ({
       type='text'
       value={value}
       placeholder={placeholder}
-      onChange={e => onChange(e.target.value)}
+      onChange={e => onChange && onChange(e.target.value)}
       onKeyDown={onKeyDown}
     />
   )
