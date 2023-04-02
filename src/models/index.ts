@@ -12,7 +12,12 @@ export const list1 = [
   {
     label: 'Element UI',
     href: 'https://element.eleme.cn/#/zh-CN',
-    logo: 'element',
+    logo: 'elementui',
+  },
+  {
+    label: 'Ant Design',
+    href: 'https://ant-design.antgroup.com/index-cn',
+    logo: 'antd',
   },
 ]
 
@@ -26,6 +31,11 @@ export const list2 = [
     label: '百度',
     href: 'https://www.baidu.com/',
     logo: 'baidu',
+  },
+  {
+    label: 'ChatGPT',
+    href: 'https://chatbot.theb.ai/#/chat/1002',
+    logo: 'chatgpt',
   },
 ]
 
@@ -172,5 +182,13 @@ export const list10 = [
     label: 'SnipPaste',
     href: 'https://www.snipaste.com/',
     logo: 'snipaste',
+  },
+]
+
+export const list11 = [
+  {
+    label: 'Vite',
+    href: 'https://cn.vitejs.dev/',
+    logo: 'vite',
   },
 ]

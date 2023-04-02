@@ -1,12 +1,25 @@
 import { KeyboardEvent } from 'react'
 
-const Input = () => {
-  const search = (e: KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      console.log(123456)
-    }
-  }
-  return <input type='text' placeholder='请输入' onKeyDown={search} />
+const Input = ({
+  value,
+  placeholder,
+  onChange,
+  onKeyDown,
+}: {
+  value?: string
+  placeholder?: string
+  onChange?: (e: string) => void
+  onKeyDown?: (e: KeyboardEvent) => void
+}) => {
+  return (
+    <input
+      type='text'
+      value={value}
+      placeholder={placeholder}
+      onChange={e => onChange(e.target.value)}
+      onKeyDown={onKeyDown}
+    />
+  )
 }
 
 export default Input
