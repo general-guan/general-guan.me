@@ -29,7 +29,7 @@ const Search = () => {
   }
 
   return (
-    <div>
+    <div className='flex flex-row justify-center items-center gap-2 p-4'>
       <Select
         value={searchType}
         onChange={selectChange}
@@ -38,7 +38,13 @@ const Search = () => {
           { value: 'google', label: '谷歌' },
         ]}
       />
-      <Input value={searchKeyword} onChange={inputChange} placeholder='请输入搜多的内容' onKeyDown={search} />
+      <Input
+        className='w-1/2'
+        value={searchKeyword}
+        onChange={inputChange}
+        placeholder='请输入搜索的内容'
+        onKeyDown={search}
+      />
     </div>
   )
 }

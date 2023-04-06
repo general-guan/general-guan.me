@@ -74,6 +74,11 @@ export const list3 = [
 
 export const list4 = [
   {
+    label: 'IconFont',
+    href: 'https://www.iconfont.cn/',
+    logo: 'iconfont',
+  },
+  {
     label: 'ColorSpace',
     href: 'https://mycolor.space/',
     logo: '',
