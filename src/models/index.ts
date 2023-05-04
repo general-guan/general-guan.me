@@ -197,3 +197,11 @@ export const list11 = [
     logo: 'vite',
   },
 ]
+
+export const list12 = [
+  {
+    label: 'TypeORM',
+    href: 'https://typeorm.bootcss.com/',
+    logo: '',
+  },
+]
